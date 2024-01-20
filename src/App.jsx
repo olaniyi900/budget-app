@@ -1,12 +1,20 @@
 import { useState } from 'react'
+import NavBar from './component/Nav/Nav'
+import Categories from './component/Categories/Categories'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      
+    
+    <NavBar/>
+   
+    <Categories/>
+
+
+    
     </>
   )
 }
